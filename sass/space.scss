@@ -1,0 +1,11 @@
+@import "global.scss";
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.numberedlist {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
