@@ -1,0 +1,16 @@
+.head {
+  margin-bottom: $headerMargin * 2;
+  min-height: $headerHeight;
+  padding: $bodyPadding;
+  width: 100%;
+  top: $headerMargin*7;
+}
+// nav{
+//     width: 100%;
+// }
+.numberedlist {
+  margin-right: 2%;
+  .link {
+    margin-right: 2px;
+  }
+}

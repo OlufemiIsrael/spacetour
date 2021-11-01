@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/img/crew/home/background-home-desktop.jpg);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head {
+  margin-bottom: 4vh;
+  min-height: 75px;
+  padding: 0 5vw;
+  width: 100%;
+  top: 14vh;
+}
+
+.numberedlist {
+  margin-right: 2%;
+}
+
+.numberedlist .link {
+  margin-right: 2px;
+}
+/*# sourceMappingURL=space.css.map */

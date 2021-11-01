@@ -1,0 +1,33 @@
+$black: #1d1b1b;
+$headerHeight: 75px;
+$headerMargin: 2vh;
+$tablet: 768px;
+$desktop: 1024px;
+$bodyPadding: 0 5vw;
+// :root {
+
+// }
+*,
+*::after,
+*::before {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-image: url(/img/crew/home/background-home-desktop.jpg);
+}
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

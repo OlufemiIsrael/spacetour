@@ -1,11 +1,3 @@
-@import "global.scss";
+@import "partials/global";
+@import "partials/header";
 
-.head {
-    display: flex;
-    justify-content: space-between;
-}
-.numberedlist {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
