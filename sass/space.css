@@ -14,6 +14,7 @@
 
 body {
   background-image: url(/img/crew/home/background-home-desktop.jpg);
+  background-repeat: none;
 }
 
 html {
@@ -33,18 +34,39 @@ html {
 }
 
 .head {
-  margin-bottom: 4vh;
   min-height: 75px;
   padding: 0 5vw;
   width: 100%;
   top: 14vh;
 }
 
-.numberedlist {
-  margin-right: 2%;
+nav {
+  width: 100%;
 }
 
-.numberedlist .link {
-  margin-right: 2px;
+.numberedlist {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section.space {
+  margin-top: 5%;
+}
+
+section.space .spacetravel h5 {
+  margin-bottom: 2%;
+}
+
+section.space .spacetravel h1 {
+  font-weight: bolder;
+}
+
+section.space .spacetravel p {
+  padding: 10px 68% 11px 16px;
+}
+
+section.space .explore h1 {
+  font-weight: bolder;
 }
 /*# sourceMappingURL=space.css.map */

@@ -1,3 +1,23 @@
 @import "partials/global";
 @import "partials/header";
+@import "font/Roboto-regular.ttf"
 
+section .space {
+  margin-top: 5%;
+  .spacetravel {
+    h5 {
+      margin-bottom: 2%;
+    }
+    h1 {
+      font-weight: bolder;
+    }
+    p {
+      padding: 10px 68% 11px 16px;
+    }
+  }
+  .explore {
+    h1 {
+      font-weight: bolder;
+    }
+  }
+}
