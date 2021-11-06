@@ -50,23 +50,42 @@ nav {
           justify-content: space-evenly;
 }
 
-section.space {
+.space {
   margin-top: 5%;
 }
 
-section.space .spacetravel h5 {
-  margin-bottom: 2%;
+.space .spacetravel {
+  margin-left: 5%;
 }
 
-section.space .spacetravel h1 {
+.space .spacetravel h5 {
+  margin-bottom: 5%;
+}
+
+.space .spacetravel h1 {
+  font-size: 500%;
   font-weight: bolder;
+  margin-bottom: 5%;
 }
 
-section.space .spacetravel p {
-  padding: 10px 68% 11px 16px;
+.space .spacetravel p {
+  padding: 10px 57% 11px 16px;
+  line-height: 24px;
+  word-spacing: 3%;
 }
 
-section.space .explore h1 {
+.space .explore {
+  margin-right: 3%;
+  margin-top: 15;
+}
+
+.space .explore h1 {
+  font-size: 180%;
   font-weight: bolder;
+  border: 1px solid;
+  padding: 35px 28px 33px 26px;
+  border-radius: 50% 50% 50% 50%;
+  color: black;
+  background-color: white;
 }
 /*# sourceMappingURL=space.css.map */

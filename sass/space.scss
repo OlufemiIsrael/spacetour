@@ -1,25 +1,35 @@
 @import "partials/global";
 @import "partials/header";
-@import "font/Roboto-regular.ttf"
 
-space {
+.space {
   margin-top: 5%;
   .spacetravel {
+    margin-left: 5%;
     h5 {
-      margin-bottom: 2%;
+      margin-bottom: 5%;
     }
     h1 {
+      font-size: 500%;
       font-weight: bolder;
+      margin-bottom: 5%;
     }
     p {
-      padding: 10px 68% 11px 16px;
+      padding: 10px 57% 11px 16px;
+      line-height: 24px;
+      word-spacing: 3%;
+
     }
   }
   .explore {
+    margin-right: 3%;
+    margin-top: 15;
     h1 {
+      font-size: 180%;
       font-weight: bolder;
       border: 1px solid;
-      border-radius: 26px;
+      padding: 35px 28px 33px 26px;
+      border-radius: 50% 50% 50% 50%;
+      color: black;
       background-color: white;
     }
   }
