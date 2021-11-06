@@ -2,7 +2,7 @@
 @import "partials/header";
 @import "font/Roboto-regular.ttf"
 
-section .space {
+space {
   margin-top: 5%;
   .spacetravel {
     h5 {
@@ -18,6 +18,9 @@ section .space {
   .explore {
     h1 {
       font-weight: bolder;
+      border: 1px solid;
+      border-radius: 26px;
+      background-color: white;
     }
   }
 }
