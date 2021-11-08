@@ -30,14 +30,13 @@
       border-radius: 50% 50% 50% 50%;
       color: black;
       background-color: white;
-      transition-property: background, border-radius, color, transform;
-      transition-duration: 1s, 3s, 4s;
+      transition-property: all;
+      transition-duration: 1s;
       transition-delay: 3s;
       transition-timing-function: ease-in-out;
     }
     h1:hover {
       background-color: red;
-      border-radius: 0;
       color: white;
       transform: rotateY(180deg);
     }
