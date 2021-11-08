@@ -17,23 +17,11 @@
       padding: 10px 57% 11px 16px;
       line-height: 24px;
       word-spacing: 3%;
-
     }
   }
   .explore {
     margin-right: 3%;
     margin-top: 15%;
-    transition-property: background, border-radius, color,
-     transform;
-    transition-duration: 1s, 3s, 4s;
-    transition-delay: 3s;
-    transition-timing-function: ease-in-out;
-    .explore:hover{
-      background-color: red;
-      border-radius: 50%;
-      color: white;
-      transform: rotateY(180deg);
-    }
     h1 {
       font-size: 180%;
       font-weight: bolder;
@@ -42,6 +30,16 @@
       border-radius: 50% 50% 50% 50%;
       color: black;
       background-color: white;
+      transition-property: background, border-radius, color, transform;
+      transition-duration: 1s, 3s, 4s;
+      transition-delay: 3s;
+      transition-timing-function: ease-in-out;
+    }
+    h1:hover {
+      background-color: red;
+      border-radius: 0;
+      color: white;
+      transform: rotateY(180deg);
     }
   }
 }
