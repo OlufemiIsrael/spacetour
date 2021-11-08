@@ -3,10 +3,17 @@
   min-height: $headerHeight;
   padding: $bodyPadding;
   width: 100%;
-  top: $headerMargin*7;
+  top: $headerMargin * 7;
 }
 .numberedlist {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 5%;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0;
+  transition-timing-function: linear;
+}
+.numberedlist:hover {
+  color: blue;
 }
