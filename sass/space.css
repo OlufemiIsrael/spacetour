@@ -59,18 +59,93 @@ html {
 
 .space .spacetravel h5 {
   margin-bottom: 5%;
+  position: relative;
+  -webkit-animation-name: heading1;
+          animation-name: heading1;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes heading {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes heading {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
 }
 
 .space .spacetravel h1 {
   font-size: 500%;
   font-weight: bolder;
   margin-bottom: 5%;
+  position: relative;
+  -webkit-animation-name: heading1;
+          animation-name: heading1;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes heading1 {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes heading1 {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
 }
 
 .space .spacetravel p {
   padding: 10px 57% 11px 16px;
   line-height: 24px;
   word-spacing: 3%;
+  position: relative;
+  -webkit-animation-name: content;
+          animation-name: content;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
 }
 
 .space .explore {

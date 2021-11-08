@@ -7,16 +7,40 @@
     margin-left: 5%;
     h5 {
       margin-bottom: 5%;
+      position: relative;
+      animation-name: heading1;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes heading {
+      0% {left: -1000px;}
+      100% {left: 0;} 
     }
     h1 {
       font-size: 500%;
       font-weight: bolder;
       margin-bottom: 5%;
+      position: relative;
+      animation-name: heading1;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes heading1 {
+      0% {left: -1000px;}
+      100% {left: 0;} 
     }
     p {
       padding: 10px 57% 11px 16px;
       line-height: 24px;
       word-spacing: 3%;
+      position: relative;
+      animation-name: content;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes content {
+      0% {left: -1000px;}
+      100% {left: 0;} 
     }
   }
   .explore {
