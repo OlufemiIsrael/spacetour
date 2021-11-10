@@ -38,7 +38,7 @@ html {
   min-height: 75px;
   padding: 0 5vw;
   width: 100%;
-  top: 14vh;
+  margin-top: 2vh;
 }
 
 .head img {
@@ -47,6 +47,10 @@ html {
 }
 
 .numberedlist {
+  border: 1px solid;
+  padding: 22px 60px 0 13px;
+  background-color: rgba(238, 228, 228, 0.76);
+  margin-left: 60%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;

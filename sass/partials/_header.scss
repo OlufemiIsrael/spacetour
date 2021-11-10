@@ -3,7 +3,7 @@
   min-height: $headerHeight;
   padding: $bodyPadding;
   width: 100%;
-  top: $headerMargin * 7;
+  margin-top: $headerMargin;
 
   img {
     width: 3%;
@@ -11,6 +11,10 @@
   }
 }
 .numberedlist {
+  border: 1px solid;
+  padding: 22px 60px 0 13px;
+  background-color: rgba(238, 228, 228, 0.76);
+  margin-left: 60%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 5%;
