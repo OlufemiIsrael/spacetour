@@ -13,7 +13,10 @@
   transition-duration: 1s;
   transition-delay: 0;
   transition-timing-function: linear;
+
+  &:hover {
+    text-decoration: none;
+    color: #0271FB;
+  }
 }
-.numberedlist:hover {
-  color: blue;
-}
+

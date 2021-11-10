@@ -47,6 +47,18 @@ html {
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
   grid-gap: 5%;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.numberedlist:hover {
+  color: blue;
 }
 
 .space {
