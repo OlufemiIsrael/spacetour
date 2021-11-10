@@ -4,6 +4,11 @@
   padding: $bodyPadding;
   width: 100%;
   top: $headerMargin * 7;
+
+  img {
+    width: 3%;
+    height: 2%;
+  }
 }
 .numberedlist {
   display: grid;

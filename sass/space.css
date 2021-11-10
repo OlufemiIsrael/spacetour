@@ -41,6 +41,11 @@ html {
   top: 14vh;
 }
 
+.head img {
+  width: 3%;
+  height: 2%;
+}
+
 .numberedlist {
   display: -ms-grid;
   display: grid;
