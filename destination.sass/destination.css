@@ -58,6 +58,7 @@ html {
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
+  grid-gap: 5%;
 }
 
 .destination {
