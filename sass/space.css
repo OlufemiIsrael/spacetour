@@ -58,11 +58,6 @@ html {
   grid-gap: 5%;
 }
 
-.numberedlist:hover {
-  text-decoration: none;
-  color: #0271FB;
-}
-
 .home {
   pointer-events: none;
 }

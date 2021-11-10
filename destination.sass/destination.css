@@ -13,6 +13,9 @@
 }
 
 body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url(/img/crew/home/background-home-desktop.jpg);
   background-repeat: none;
 }
@@ -55,15 +58,25 @@ html {
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
-  grid-gap: 5%;
-}
-
-.numberedlist:hover {
-  text-decoration: none;
-  color: #0271FB;
 }
 
 .destination {
   pointer-events: none;
+}
+
+body {
+  background-image: url(/img/crew/destination/background-destination-desktop.jpg);
+  background-repeat: none;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.wrapper.img {
+  width: 32%;
 }
 /*# sourceMappingURL=destination.css.map */

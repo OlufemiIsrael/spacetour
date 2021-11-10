@@ -1,3 +1,14 @@
 @import "partials/global";
 @import "partials/header";
 
+body {
+    background-image: url(/img/crew/destination/background-destination-desktop.jpg);
+    background-repeat: none;
+  }
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.wrapper.img {
+    width: 32%;
+}
