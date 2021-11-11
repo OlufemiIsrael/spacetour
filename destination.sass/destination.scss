@@ -7,8 +7,9 @@ body {
   }
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 8%;
 }
-.wrapper.img {
-    width: 32%;
+img {
+    width: 50%;
 }

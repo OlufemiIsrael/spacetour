@@ -73,11 +73,12 @@ body {
 .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  margin-top: 8%;
 }
 
-.wrapper.img {
-  width: 32%;
+img {
+  width: 50%;
 }
 /*# sourceMappingURL=destination.css.map */
