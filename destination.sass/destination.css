@@ -86,7 +86,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
+  .wrapper .wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
