@@ -44,6 +44,18 @@ html {
   margin-top: 2vh;
 }
 
+@media screen and (max-width: 768px) {
+  .head .head {
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .head .head {
+    margin-right: 12%;
+  }
+}
+
 .head img {
   width: 3%;
   height: 2%;
@@ -83,15 +95,6 @@ p {
       grid-template-columns: auto auto auto auto;
   margin-top: 8%;
   margin-left: 5%;
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper .wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-  }
 }
 
 img {
