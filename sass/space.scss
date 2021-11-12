@@ -3,6 +3,17 @@
 
 .space {
   margin-top: 5%;
+  
+@media screen and (max-width: 768px) {
+  .space {
+    margin-right: 8%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .space {
+    flex-direction: column;
+  }
+}
   .spacetravel {
     margin-left: 5%;
     h5 {

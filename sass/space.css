@@ -66,6 +66,21 @@ html {
   margin-top: 5%;
 }
 
+@media screen and (max-width: 768px) {
+  .space .space {
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .space .space {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .space .spacetravel {
   margin-left: 5%;
 }

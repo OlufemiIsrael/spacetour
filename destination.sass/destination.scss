@@ -16,6 +16,12 @@ p {
   margin-top: 8%;
   margin-left: 5%;
 }
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 img {
   width: 50%;
 }
